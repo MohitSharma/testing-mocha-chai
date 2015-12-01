@@ -1,0 +1,26 @@
+{
+  "name": "testing-mocha-chai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "author": "developer.pht@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.13.3",
+    "lodash": "^3.10.1",
+    "mortalkombat": "0.0.1",
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.2.2"
+  },
+  "devDependencies": {
+    "chai": "3.4.1",
+    "mocha": "2.3.4",
+    "superagent": "1.4.0"
+  }
+}
